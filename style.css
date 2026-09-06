@@ -29,6 +29,10 @@ nav {
 }
 
 @media (max-width: 600px) {
+  nav {
+    flex-wrap: wrap;
+  }
+
   .tabla {
     grid-template-columns: 1fr;
   }
