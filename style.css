@@ -1,7 +1,6 @@
 .tabla {
   display: grid;
-  grid-template-columns:
-    1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 1rem;
 }
 
@@ -25,7 +24,8 @@
 
 nav {
   display: flex;
-  gap: 1rem;
+  justify-content: center;
+  gap: 1.5rem;
 }
 
 @media (max-width: 600px) {
@@ -34,6 +34,6 @@ nav {
   }
 
   .tabla {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 }
